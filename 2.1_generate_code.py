@@ -10,12 +10,7 @@ from langchain_openai import ChatOpenAI
 def main():
 
     generated_code = generate_code(
-            """Write Python code to generate a 800x600 image with alternating
-            yellow, purple and green bars of height 10 going across.
-            Then draw a white circle with a radius of 50
-            in the center of the image. Then draw yellow lines of height 10
-            going across the image with a gap of 20 between every two lines.
-            Use PIL to render it"""
+            """Write a python program to read an excel file using pandas and write the first 5 rows of the data into a new excel file with the same name as the original file with '_output' appended to the name"""
         )
     with open("generated_code.py", "w") as file:
         file.write(generated_code)

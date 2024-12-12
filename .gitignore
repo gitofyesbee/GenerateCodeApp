@@ -7,3 +7,5 @@ install/
 .idea/
 *.idea
 generated_code.py
+input.xlsx
+input_output.xlsx
